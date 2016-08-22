@@ -1,11 +1,11 @@
-export function addTodo(text) {
-  return { type: 'ADD_TODO', text }
+export function sendName() {
+  return { type: 'SEND_NAME'}
 }
 
-export function completeTodo(id) {
-  return { type: 'COMPLETE_TODO', id }
+export function inputSei(sei) {
+  return { type: 'INPUT_SEI', sei}
 }
 
-export function setVisibilityFilter(filter) {
-  return { type: 'SET_VISIBILITY_FILTER', filter }
+export function inputMei(mei) {
+  return { type: 'INPUT_MEI', mei}
 }
